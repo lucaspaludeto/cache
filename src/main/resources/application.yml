@@ -1,0 +1,12 @@
+spring:
+  cache:
+    type: SIMPLE
+ #   redis:
+  #    time-to-live: 5000
+  redis:
+    host: localhost
+logging:
+  level:
+    org.springframework.cache: TRACE
+server:
+  port: 8080
